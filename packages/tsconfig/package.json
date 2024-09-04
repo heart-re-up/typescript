@@ -22,6 +22,9 @@
         "type": "git",
         "url": "https://github.com/heart-re-up/typescript.git"
     },
+    "bugs": {
+        "url": "https://github.com/heart-re-up/typescript/issues"
+    },
     "author": "heart-re-up",
     "license": "MIT",
     "devDependencies": {
@@ -30,7 +33,6 @@
         "tslib": "^2.7.0"
     },
     "peerDependencies": {
-        "@heartreup/prettier-config-cherish": "workspace:*",
         "tslib": "^2.7.0"
     }
 }
