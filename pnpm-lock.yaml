@@ -15,11 +15,11 @@ importers:
         specifier: ^0.41.0
         version: 0.41.0
 
-  packages/eslint-config-cherish-typescript:
+  packages/eslint-config-typescript:
     devDependencies:
-      '@heartreup/prettier-config-cherish':
+      '@heartreup/prettier-config':
         specifier: workspace:*
-        version: link:../prettier-config-cherish
+        version: link:../prettier-config
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.4.0
         version: 8.4.0(@typescript-eslint/parser@8.4.0(eslint@8.57.0)(typescript@5.5.4))(eslint@8.57.0)(typescript@5.5.4)
@@ -44,12 +44,12 @@ importers:
 
   packages/openapi-generator:
     devDependencies:
-      '@heartreup/eslint-config-cherish-typescript':
+      '@heartreup/eslint-config-typescript':
         specifier: workspace:*
-        version: link:../eslint-config-cherish-typescript
-      '@heartreup/prettier-config-cherish':
+        version: link:../eslint-config-typescript
+      '@heartreup/prettier-config':
         specifier: workspace:*
-        version: link:../prettier-config-cherish
+        version: link:../prettier-config
       '@heartreup/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
@@ -75,7 +75,7 @@ importers:
         specifier: ^5.5.4
         version: 5.5.4
 
-  packages/prettier-config-cherish:
+  packages/prettier-config:
     devDependencies:
       prettier:
         specifier: ^3.3.3
@@ -83,9 +83,9 @@ importers:
 
   packages/tsconfig:
     devDependencies:
-      '@heartreup/prettier-config-cherish':
+      '@heartreup/prettier-config':
         specifier: workspace:*
-        version: link:../prettier-config-cherish
+        version: link:../prettier-config
       prettier:
         specifier: ^3.3.3
         version: 3.3.3

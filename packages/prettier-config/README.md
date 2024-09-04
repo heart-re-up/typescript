@@ -3,14 +3,14 @@
 ## Install
 
 ```bash
-pnpm add -D @heartreup/prettier-config-cherish
+pnpm add -D @heartreup/prettier-config
 ```
 
 ## Usage
 
 ```javascript
 // .prettierrc.js
-module.exports = '@heartreup/prettier-config-cherish';
+module.exports = '@heartreup/prettier-config';
 ```
 
 ## configure with eslint (optional)

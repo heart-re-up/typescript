@@ -1,1 +1,1 @@
-module.exports = "@heartreup/prettier-config-cherish";
+module.exports = '@heartreup/prettier-config';

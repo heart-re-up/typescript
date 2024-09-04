@@ -28,7 +28,7 @@
     "author": "heart-re-up",
     "license": "MIT",
     "devDependencies": {
-        "@heartreup/prettier-config-cherish": "workspace:*",
+        "@heartreup/prettier-config": "workspace:*",
         "prettier": "^3.3.3",
         "tslib": "^2.7.0"
     },

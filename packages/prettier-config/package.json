@@ -1,5 +1,5 @@
 {
-    "name": "@heartreup/prettier-config-cherish",
+    "name": "@heartreup/prettier-config",
     "version": "1.0.0",
     "description": "A prettier config for heart-re-up's projects.",
     "main": ".prettierrc.json",

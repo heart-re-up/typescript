@@ -1,5 +1,5 @@
 {
-    "name": "@heartreup/eslint-config-cherish-typescript",
+    "name": "@heartreup/eslint-config-typescript",
     "version": "1.0.0",
     "description": "A eslint config for heart-re-up's projects.",
     "main": "index.js",
@@ -24,7 +24,7 @@
     "author": "heart-re-up",
     "license": "MIT",
     "devDependencies": {
-        "@heartreup/prettier-config-cherish": "workspace:*",
+        "@heartreup/prettier-config": "workspace:*",
         "@typescript-eslint/eslint-plugin": "^8.4.0",
         "@typescript-eslint/parser": "^8.4.0",
         "eslint": "^8",
@@ -34,7 +34,7 @@
         "prettier": "^3.3.3"
     },
     "peerDependencies": {
-        "@heartreup/prettier-config-cherish": "workspace:*",
+        "@heartreup/prettier-config": "workspace:*",
         "@typescript-eslint/eslint-plugin": "^8.4.0",
         "@typescript-eslint/parser": "^8.4.0",
         "eslint": "^8",
