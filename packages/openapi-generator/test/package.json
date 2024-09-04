@@ -1,0 +1,9 @@
+{
+    "openapi-generator": [
+        {
+            "name": "PetStoreAPI",
+            "url": "https://petstore.swagger.io/v2/swagger.json",
+            "dist": "dist/petstore"
+        }
+    ]
+}

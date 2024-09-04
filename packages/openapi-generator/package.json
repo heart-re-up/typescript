@@ -29,13 +29,18 @@
         "@heartreup/tsconfig": "workspace:*",
         "@openapitools/openapi-generator-cli": "^2.13.5",
         "@types/node": "^22.5.3",
+        "commander": "^12.1.0",
         "eslint-config-prettier": "^9.1.0",
         "eslint-plugin-prettier": "^5.2.1",
         "prettier": "^3.3.3",
+        "ts-node": "^10.9.2",
         "tsup": "^8.2.4",
         "typescript": "^5.5.4"
     },
     "peerDependencies": {
         "@openapitools/openapi-generator-cli": "^2.13.5"
+    },
+    "dependencies": {
+        "openapi-typescript-codegen": "^0.29.0"
     }
 }
