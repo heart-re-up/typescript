@@ -1,0 +1,41 @@
+{
+    "name": "@heartreup/openapi-generator",
+    "version": "1.0.0",
+    "description": "A openapi-generator for heart-re-up's projects.",
+    "main": ".index.js",
+    "bin": "exec.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "LICENSE"
+    ],
+    "keywords": [
+        "prettier",
+        "typescript"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heart-re-up/typescript.git"
+    },
+    "author": "heart-re-up",
+    "license": "MIT",
+    "devDependencies": {
+        "@heartreup/eslint-config-cherish-typescript": "workspace:*",
+        "@heartreup/prettier-config-cherish": "workspace:*",
+        "@heartreup/tsconfig": "workspace:*",
+        "@openapitools/openapi-generator-cli": "^2.13.5",
+        "@types/node": "^22.5.3",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "prettier": "^3.3.3",
+        "tsup": "^8.2.4",
+        "typescript": "^5.5.4"
+    },
+    "peerDependencies": {
+        "@openapitools/openapi-generator-cli": "^2.13.5"
+    }
+}

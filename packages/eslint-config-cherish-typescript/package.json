@@ -1,0 +1,43 @@
+{
+    "name": "@heartreup/eslint-config-cherish-typescript",
+    "version": "1.0.0",
+    "description": "A eslint config for heart-re-up's projects.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "LICENSE",
+        "index.js"
+    ],
+    "keywords": [
+        "eslint",
+        "typescript"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heart-re-up/typescript.git"
+    },
+    "author": "heart-re-up",
+    "license": "MIT",
+    "devDependencies": {
+        "@heartreup/prettier-config-cherish": "workspace:*",
+        "@typescript-eslint/eslint-plugin": "^8.4.0",
+        "@typescript-eslint/parser": "^8.4.0",
+        "eslint": "^8",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "prettier": "^3.3.3"
+    },
+    "peerDependencies": {
+        "@heartreup/prettier-config-cherish": "workspace:*",
+        "@typescript-eslint/eslint-plugin": "^8.4.0",
+        "@typescript-eslint/parser": "^8.4.0",
+        "eslint": "^8",
+        "eslint-config-airbnb-base": "^15.0.0"
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "@heartreup/prettier-config-cherish",
+    "version": "1.0.0",
+    "description": "A prettier config for heart-re-up's projects.",
+    "main": ".prettierrc.json",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "LICENSE",
+        ".prettierrc.json"
+    ],
+    "keywords": [
+        "prettier",
+        "typescript"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heart-re-up/typescript.git"
+    },
+    "author": "heart-re-up",
+    "license": "MIT",
+    "devDependencies": {
+        "prettier": "^3.3.3"
+    },
+    "peerDependencies": {
+        "prettier": "^3.3.3"
+    }
+}

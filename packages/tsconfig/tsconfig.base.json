@@ -1,0 +1,44 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "moduleResolution": "Node", // 모듈 탐색 전략입니다. 에스컬레이트 탐색을 수행하려면 node 를 사용해야 합니다.
+        /** 시험기능 */
+        "experimentalDecorators": true, // 데코레이션 기능 사용을 켭니다.
+        /** Type 및 Imports */
+        "lib": ["esnext"], // 타입스크립트에 문법을 공개합니다. 선언하지 않으면 코드에서 사용할 수 없습니다.
+        "esModuleInterop": true, // export default 되지 않은 CommonJS 모듈을 ES6 사양을 준수하여 default 로 가져옵니다.
+        "allowSyntheticDefaultImports": true, // CommonJS 로 부터 import defaults 의 타입을 검사합니다. esModuleInterop 에 의해서 활성되지만 명시적으로 설정합니다.
+        "skipLibCheck": true, // 모든 declaration 파일(*.d.ts)의 검사를 생략합니다.
+        "skipDefaultLibCheck": true, // 더 이상 사용하지 않는 옵션입니다. 이제는 skipLibCheck 를 사용하지만 하위호환 보장을 위해서 명시합니다.
+        /** Emit */
+        "target": "es2015", // 결과물의 es 버전입니다.
+        "module": "esnext", // 출력 파일의 모듈 시스템입니다. ESM 을 사용하도록 합니다.
+        "sourceMap": true, // 소스 맵을 생성합니다.
+        "importHelpers": true, // 트랜스파일에서 tslib 를 참조해서 번들 크기를 줄입니다.
+        "emitDecoratorMetadata": true, // 데코레이션의 중요 기능인 metadata 를 결과물에 포함시킵니다.
+        "downlevelIteration": true, // ES5 이하 타겟인 경우 ES6 반복문의 명확한 구현을 같이 트랜스파일합니다.
+        // "importsNotUsedAsValues": "preserve", // 트랜스파일 시 타입 정보는 제거하나, import 구문은 유지하여 사이드이펙트를 발생시킵니다.
+        // "verbatimModuleSyntax": true, // import 구문에서 타입 정보만 사용하는 경우를 강제합니다. importsNotUsedAsValues 의 모호함으로 대체된 옵션입니다.
+        "noEmitHelpers": false, // helpers 트랜스파일을 허용합니다.
+        "noEmitOnError": false, // 컴파일 도중 오류가 발생하면 결과물을 생성하지 않습니다. 개발환경에서는 끄고, 배포는 켭니다.
+        /** 도달 불가 코드 및 미사용 설정 */
+        "allowUnreachableCode": false, // unreachable 코드를 허용하지 않습니다.
+        "allowUnusedLabels": false, // unused 라벨을 허용하지 않습니다.
+        "noUnusedParameters": true, // 사용하지 않는 매개변수를 금지합니다.
+        "noUnusedLocals": true, // 사용하지 않는 `지역`스코프의 변수를 금지합니다.
+        /** 암묵적 코드 설정*/
+        "noImplicitAny": true, // 암묵적인 any 평가를 금지합니다.
+        "noImplicitOverride": true, // 암묵적인 오버라이드를 금지합니다. override 키워드가 강제됩니다.
+        "noImplicitReturns": true, // 암묵적 반환을 금지합니다. 반환타입이 유니온이 되지 않도록 합니다.
+        "noImplicitThis": true, // 동적 this 평가가 불가능한 상황에서 암묵적인 any 평가를 금지합니다.
+        /** 타입 평가의 엄격성 설정 */
+        "strict": true, // 엄격 모드를 활성합니다. 모든 strict mode family 가 활성됩니다.
+        /** 그 외*/
+        "forceConsistentCasingInFileNames": true, // 파일 이름의 대소문자 구분
+        "noPropertyAccessFromIndexSignature": true, // indexible 프로퍼티의 접근을 금지합니다. 반드시 인덱스 문법을 사용해야합니다.
+        "noUncheckedIndexedAccess": true, // indexible 프로퍼티를 `T | undefined` 로 추론합니다.
+        "exactOptionalPropertyTypes": false, // 옵셔널 프리픽스의 undefined 타입 유니온을 허용합니다.
+        "noFallthroughCasesInSwitch": true, // switch 문의 fallthrough 를 금지합니다.
+        "incremental": true
+    }
+}
