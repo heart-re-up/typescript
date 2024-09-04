@@ -1,6 +1,6 @@
 {
     "name": "@heartreup/tsconfig",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A base tsconfig for heart-re-up's projects.",
     "main": "tsconfig.default.json",
     "scripts": {
